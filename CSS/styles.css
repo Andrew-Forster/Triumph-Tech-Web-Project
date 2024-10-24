@@ -108,4 +108,16 @@ body {
 
 /* Section 2 */
 
+.s2 > .container {
+    max-width: 500px;
+}
+
+.s2-img {
+    aspect-ratio: 3/4;
+    max-height: 450px;
+}
+
+/* Section 3 */
+
+/* Section 4 */
 
