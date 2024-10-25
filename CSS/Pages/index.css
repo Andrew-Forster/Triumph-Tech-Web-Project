@@ -1,0 +1,97 @@
+/* Reusable's*/
+
+.btn-custom {
+    border: 2px solid #333;
+    font-weight: 100;
+    padding: 0.5rem 2rem;
+    margin: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section 1 */
+
+.main-cont {
+    margin-bottom: 20vw;
+}
+
+.main-img {
+    min-width: 100%;
+    filter: brightness(0.8);
+}
+
+.person-img {
+    width: 40%;
+    aspect-ratio: 1/1;
+    object-position: 0 0;
+}
+
+.main-child {
+    width: 30%;
+}
+
+.mc-text {
+    letter-spacing: 2.5px;
+    padding: 0 10%;
+}
+
+/* Section 2 */
+
+.s2 > .container {
+    max-width: 550px;
+    align-self: center;
+}
+
+.s2 > .container h2 {
+    font-weight: 900;
+}
+
+.s2 > .container h6 {
+    font-weight: 900;
+    word-spacing: 0.2rem;
+}
+
+.s2 > .container p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.s2-img {
+    max-height: 550px;
+    max-width: 400px;
+    aspect-ratio: 3/4;
+}
+
+/* Section 3 */
+
+.s3 p {
+    font-size: 0.9rem;
+    max-width: 520px;
+}
+
+.s3 .card {
+    background-color: transparent;
+    color: white;
+}
+
+.s3 .card img {
+    /* invert color of SVGS from black to white */
+    filter: invert(1);
+    max-width: 100px;
+}
+
+.s3 .card p {
+    max-width: 220px;
+}
+
+/* Section 4 */
+
+.s4-img {
+    aspect-ratio: 7/8;
+    max-height: 500px;
+    width: 40%;
+}
+
+.s4-svg {
+    max-height: 100px;
+}
